@@ -27,10 +27,10 @@ npm install --save-dev @babel/preset-env
 const path = require("path");
 
 module.exports = {
-  entry: "02.compire_jsx/main.jsx",
+  entry: "./02.compire_jsx/main.jsx",
   output: {
     path: path.resolve(__dirname, "01.helloworld"),
-    filename: main.js,
+    filename: "main.js",
   },
   mode: "development",
   module: {
@@ -50,15 +50,8 @@ module.exports = {
 };
 ```
 
-## 更改 package.json
+## 執行 `npm run build`，可發現網頁成功顯示 Hello world!
 
-```javascript
-// 原為
-"scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-// 改為
-"scripts": {
-   "build": "webpack"
- },
-```
+## React 的 DevTools
+
+- Download the React DevTools for a better development experience: https://reactjs.org/link/react-devtools
