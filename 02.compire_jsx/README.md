@@ -1,6 +1,6 @@
 # React - Compile JSX
 
-## 安裝相關編譯環境
+## &#9758;安裝相關編譯環境
 
 ### 一、建立 Webpack 環境
 
@@ -54,14 +54,15 @@ module.exports = {
 
 ### 五、執行 `npm run build`，可發現網頁成功顯示 Hello world!
 
-## React 的 DevTools
+## &#9758;React 的 DevTools
 
-- Download the React DevTools for a better development experience: https://reactjs.org/link/react-devtools
-- 進到上述網址後，可依個人習慣添加網頁瀏覽器之擴充套件。如果有問題，會在擴充套件之處做建議提醒。
+### - Download the React DevTools for a better development experience: https://reactjs.org/link/react-devtools
 
-## 持續運行 webpack
+### - 進到上述網址後，可依個人習慣添加網頁瀏覽器之擴充套件。如果有問題，會在擴充套件之處做建議提醒。
 
-### 在 package.json 的 scripts 加上 watch
+## &#9758;持續運行 webpack
+
+### 一、在 package.json 的 scripts 加上 watch
 
 ```javascript
   "scripts": {
@@ -69,4 +70,4 @@ module.exports = {
   },
 ```
 
-### 執行 npm run watch
+### 二、執行 npm run watch
