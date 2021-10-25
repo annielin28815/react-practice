@@ -25,5 +25,8 @@
     "babel-loader": "^8.2.3",
     "bable-loader": "^0.0.1-security",
     "webpack-cli": "^4.9.1"
+  },
+  "dependencies": {
+    "@reduxjs/toolkit": "^1.6.2"
   }
 }
