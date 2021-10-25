@@ -1,12 +1,21 @@
-# React - Create-react-app
+# React - Add React to a Website
 
-## step1: 在 HTML 上加入一個 DOM Container
+## 主要內容
+
+- [官方文件](https://zh-hant.reactjs.org/docs/add-react-to-a-website.html)
+- 使用官方範例程式碼，學習如何使用 component。
+
+## 實作效果
+
+## 實作方法
+
+### step1: 在 HTML 上加入一個 DOM Container
 
 ```html
 <div id="like_button_container"></div>
 ```
 
-## step2: 加上 Script 標籤，引入 react 和 其他 javascript 檔案。
+### step2: 加上 Script 標籤，引入 react 和 其他 javascript 檔案。
 
 ```html
 <!-- 載入 React。 -->
@@ -24,7 +33,7 @@
 <script src="like_button.js"></script>
 ```
 
-## step3: 建立一個檔案名為 like_button.js，裡面放官方給的 React Component 範例程式碼
+### step3: 建立一個檔案名為 like_button.js，裡面放官方給的 React Component 範例程式碼
 
 ```javascript
 "use strict";
@@ -52,7 +61,7 @@ class LikeButton extends React.Component {
 }
 ```
 
-## step4: 在 like_button.js 檔案的下方加上以下程式碼，以渲染出來到畫面上。
+### step4: 在 like_button.js 檔案的下方加上以下程式碼，以渲染出來到畫面上。
 
 ```javascript
 // render
