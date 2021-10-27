@@ -1,13 +1,17 @@
 # React - Add React to a Website
 
-## 主要內容
+## &#9758;主要內容
 
 - [官方文件](https://zh-hant.reactjs.org/docs/add-react-to-a-website.html)
 - 使用官方範例程式碼，學習如何使用 component。
 
-## 實作效果
+## &#9758;實作效果
 
-## 實作方法
+| before click                                     | after click                                      |
+| ------------------------------------------------ | ------------------------------------------------ |
+| ![before click](https://i.imgur.com/wQbO7Yn.png) | ![after click ](https://i.imgur.com/QHpSVao.png) |
+
+## &#9758;實作方法
 
 ### step1: 在 HTML 上加入一個 DOM Container
 
