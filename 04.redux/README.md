@@ -1,6 +1,6 @@
 # React - Redux
 
-## Redux
+## &#9758;Redux
 
 - [官網](https://redux.js.org/)
 - 簡易安裝： `npm install @reduxjs/toolkit`
